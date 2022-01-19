@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
 
-public class majorElement {
+public class Array2 {
     public static int majorityElement(int[] nums) {
         Arrays.sort(nums);
         HashMap<Integer,Integer> map = new HashMap<>();

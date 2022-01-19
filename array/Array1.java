@@ -2,7 +2,7 @@ package array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class intersection {
+public class Array1 {
     public static int[] intersection(int[] nums1, int[] nums2) {
         int i=0,j=0,l=0;
 

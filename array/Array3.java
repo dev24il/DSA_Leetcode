@@ -1,6 +1,6 @@
 package array;
 
-public class time {
+public class Array3 {
     public static int timeRequiredToBuy(int[] tickets, int k) {
         int ans = tickets[k];
         int ct = 0;
