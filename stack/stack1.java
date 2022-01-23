@@ -3,7 +3,7 @@ package stack;
 import java.util.Stack;
 
 public class stack1 {
-    public static boolean isValid(String s) {
+    public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)=='(' || s.charAt(i)=='{' || s.charAt(i)=='['){
