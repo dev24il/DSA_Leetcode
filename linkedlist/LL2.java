@@ -1,14 +1,14 @@
 package linkedlist;
 
-public class LL1 {
-    public boolean hasCycle(ListNode head) {
+public class LL2 {
+    public static ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
+
         while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
-            if(slow == fast) return true;
         }
-        return false;
+        return slow;
     }
 }
